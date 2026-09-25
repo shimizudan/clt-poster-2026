@@ -1,5 +1,5 @@
 // 文化祭ポスターセッション用ポスター（A0縦）
-// 出典: Juliaで学ぶ統計的推測 第6章 6.4「母集団が正規分布でないとき：実験」
+// 出典: 『「nが大きいとき」の正体：Juliaで確かめる高校数学の統計的な推測』第6章 6.4「母集団が正規分布でないとき：実験」
 // 図は julia/make_figs.jl で figs/ に生成する
 #import "@preview/peace-of-posters:0.5.6" as pop
 #import "@preview/tiaoma:0.3.0"
@@ -161,6 +161,6 @@
 
 #pop.bottom-box(text-relative-width: 100%)[
   #set text(size: 26pt)
-  出典：「Juliaで学ぶ統計的推測」第6章 6.4 母集団が正規分布でないとき：実験（Zenn）
+  出典：『「$n$が大きいとき」の正体：Juliaで確かめる高校数学の統計的な推測』第6章 6.4（Zenn）
   #h(1fr) 使用ソフト：Julia（Distributions.jl，Plots.jl），Typst（peace-of-posters）
 ]
