@@ -45,7 +45,7 @@
   [母集団が正規分布でなくても，標本平均は正規分布に近づく？],
   subtitle: text(size: 42pt, weight: "regular")[
     ── 4つの母集団で中心極限定理を Julia で実験する ──],
-  authors: text(size: 38pt, weight: "regular")[城北中学校・高等学校　清水　団　#h(1.5em) 2026年9月25日],
+  authors: text(size: 38pt, weight: "regular")[城北中学校・高等学校　数学科・校長　清水　団　#h(1.5em) 2026年9月25日],
   logo: align(center + horizon, stack(spacing: 8pt,
     box(fill: white, inset: 12pt, radius: 12pt,
       tiaoma.qrcode("https://github.com/shimizudan/clt-poster-2026/blob/main/poster.pdf", width: 6cm)),
